@@ -1,3 +1,27 @@
 h1 {
 	color: blue;
 }
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: green;
+}
+
+
+p {
+	font-size: 20px;
+	border: solid;
+}
+.row {
+	width: 100%;
+}
+/*********** Large Devices Only **********/
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		float: left;
+		border: 1px solid orange;
+	}
+}
